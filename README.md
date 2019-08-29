@@ -1,7 +1,7 @@
 # Ejercicios de estructura de control 2
 ## Selectivas y Repetitivas
 
-Nombre: Daniela Abril Vento
+Nombre: Daniela Abril Vento Bustamante
 --
 
 Github Username: davento
