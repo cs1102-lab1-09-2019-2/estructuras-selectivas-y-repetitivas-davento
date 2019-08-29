@@ -33,16 +33,16 @@ float promGrade(int n){
         cout<<"Examen 2: ";
         cin>>E2;
     }while(E2<0 || E2>20);
-    prom=PC1+PC2+PC3+PC4+P+E1+E2;
+    prom=0.05*PC1+0.1*PC2+0.1*PC3+0.15*PC4+0.2*P+0.2*E1+0.2*E2;
     cout<<"Su promedio es "<<prom<<"\n";
     return prom;
 }
 
 string Event(float prom){
-    string event1="Ud. asistirá al ACM ICPC International Collegiate Programming Contest\n";
-    string event2="Ud. asistirá a Imagine Cup\n";
-    string event3="Ud. asistirá al Hackaton de Miraflores\n";
-    string event4="Ud. necesita mejorar\n";
+    string event1="Ud. asistirá al ACM ICPC International Collegiate Programming Contest\n\n";
+    string event2="Ud. asistirá a Imagine Cup\n\n";
+    string event3="Ud. asistirá al Hackaton de Miraflores\n\n";
+    string event4="Ud. necesita mejorar\n\n";
     if (prom >=18 && prom<=20)
         return event1;
     if (prom>=15 && prom<18)
