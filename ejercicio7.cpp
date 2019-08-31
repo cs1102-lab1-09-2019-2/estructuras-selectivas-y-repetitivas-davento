@@ -6,7 +6,7 @@ int main() {
     do{
     cout<<"Ingrese su número";
     cin>>P;
-    } while (P>11111111 || P<99999999)
+    } while (P>11111111 || P<99999999);
     
     return 0;
 }
